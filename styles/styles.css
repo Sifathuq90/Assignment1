@@ -1,0 +1,39 @@
+/* Common shared family */
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+header h4 {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 177px;
+}
+
+header h3 {
+  color: #FFF;
+
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  width: 632px;
+  padding: 5px 344px 177px 344px;
+
+}
+
+header {
+  background-image: url('../resources/Banner\ Image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  margin-left: 170px;
+  background: linear-gradient(180deg, #070211 0%, 100%);
+}
